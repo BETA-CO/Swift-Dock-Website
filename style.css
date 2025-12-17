@@ -165,8 +165,9 @@ nav {
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
     width: auto;
+    border-radius: 14px;
 }
 
 .nav-links {
@@ -245,6 +246,7 @@ nav {
     height: 200px;
     object-fit: contain;
     z-index: 2;
+    border-radius: 50px;
     filter: drop-shadow(0 0 30px rgba(0, 243, 255, 0.4));
     animation: floatIcon 6s ease-in-out infinite;
 }
